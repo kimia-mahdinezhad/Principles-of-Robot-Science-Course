@@ -1,0 +1,10 @@
+launch:
+
+- node:
+    pkg: "yangsim"
+    exec: "testNode"
+    name: "yang"
+    param:
+    -
+      name: "my_parameter"
+      value: '2'

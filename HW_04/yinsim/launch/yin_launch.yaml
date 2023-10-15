@@ -1,0 +1,6 @@
+launch:
+
+- node:
+    pkg: "yinsim"
+    exec: "testNode"
+    name: "yin"
