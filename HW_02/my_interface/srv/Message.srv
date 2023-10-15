@@ -1,0 +1,4 @@
+std_msgs/String msg
+uint64 length
+---
+uint64 checksum
