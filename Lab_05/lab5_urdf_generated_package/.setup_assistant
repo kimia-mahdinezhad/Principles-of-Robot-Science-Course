@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: lab5_urdf_package
+    relative_path: urdf/model.urdf.xacro
+  srdf:
+    relative_path: config/model.srdf
+  package_settings:
+    author_name: kimia
+    author_email: mike@kie.com
+    generated_timestamp: 1683289029
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
